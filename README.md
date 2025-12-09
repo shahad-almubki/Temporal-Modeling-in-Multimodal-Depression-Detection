@@ -1,55 +1,62 @@
 # Temporal Modeling in Multimodal Depression Detection  
 A Critical Review and Cross-Platform Generalization Study
 
-This repository contains an academic critical review of an existing research work
-titled **“It’s Just a Matter of Time: Detecting Depression with Time-Enriched
-Multimodal Transformers”**. The paper evaluates the role of temporal modeling in
-multimodal depression detection and examines its ability to generalize across
-different social media platforms.
+This repository contains an academic **critical review and analytical study**
+within the field of **Artificial Intelligence and Deep Learning**.
+The work focuses on transformer-based multimodal models for depression detection
+on social media, with particular emphasis on **temporal modeling**.
 
 ## Nature of the Work
-This project is a **critical review and analytical study**, not an original model
-proposal. The experimental analysis is conducted to assess and validate selected
-design choices reported in the original work.
+This project is a **critical review and experimental analysis** of an existing AI
+and deep learning research paper.  
+It does **not** propose a new model or dataset, but evaluates and analyzes design
+choices and generalization behavior reported in prior work.
 
 ## Reviewed Paper
-Bucur et al., *It’s Just a Matter of Time: Detecting Depression with Time-Enriched
-Multimodal Transformers*, arXiv, 2023.
+Bucur et al.,  
+*It’s Just a Matter of Time: Detecting Depression with Time-Enriched Multimodal Transformers*,  
+arXiv, 2023.
+
+## Research Focus
+- Artificial Intelligence (AI)
+- Deep Learning
+- Multimodal Learning
+- Transformer Architectures
+- Temporal Modeling (Time2Vec)
+- Mental Health AI
 
 ## Research Objective
-The main objective of this study is to investigate:
-- Whether temporal embeddings (Time2Vec) improve the generalization of multimodal
-  depression detection models.
-- How time-aware models perform compared to time-agnostic models when evaluated
-  across different social media platforms (Twitter vs. Reddit).
+The main objective of this study is to examine:
+- The impact of temporal embeddings on multimodal transformer models
+- The ability of time-aware models to generalize across different social media
+  platforms (e.g., Twitter and Reddit)
+- The strengths and limitations of current temporal modeling approaches in
+  mental health AI applications
 
 ## Methodology
-- Critical evaluation of a multimodal transformer architecture integrating text,
-  images, and temporal signals.
-- Comparative analysis between models with and without temporal embeddings.
-- Cross-platform evaluation focusing on performance degradation and error patterns.
-- Analysis of architectural strengths, limitations, and ethical considerations.
+- Architectural and methodological critical review of a time-enriched multimodal
+  transformer model
+- Comparative analysis between time-aware and time-agnostic transformer settings
+- Cross-platform generalization analysis
+- Discussion of computational, ethical, and modeling limitations
 
 ## Key Findings
-- Time-aware models showed a smaller performance drop across platforms compared to
-  time-agnostic models.
-- Temporal modeling reduced false positives for users with irregular or burst
-  posting behavior.
-- While temporal embeddings improve generalization, limitations remain due to
-  dataset size, cultural homogeneity, and architectural efficiency.
+- Temporal modeling improves cross-platform generalization performance
+- Time-aware models exhibit smaller performance degradation across domains
+- Temporal embeddings help capture behavioral patterns beyond content alone
+- Several architectural limitations remain, including efficiency and cultural bias
 
-## Challenges and Limitations
-- Dependence on pre-trained and potentially biased models.
-- Limited cultural and linguistic diversity in datasets.
-- Quadratic complexity of transformer architectures restricting long user timelines.
-- Performance measured primarily through classification metrics without clinical
-  validation.
+## Limitations and Challenges
+- Dependence on pre-trained deep learning models with potential bias
+- Limited linguistic and cultural diversity in datasets
+- Quadratic complexity of transformer architectures
+- Performance evaluation based solely on social media signals
 
 ## Recommendations for Future Work
-- Use more efficient transformer architectures (e.g., Longformer, Performer).
-- Replace mean pooling with attention-based pooling mechanisms.
-- Evaluate models on additional platforms and non-English datasets.
-- Incorporate finer-grained temporal mood variation modeling.
+- Explore more efficient transformer architectures (e.g., Longformer, Performer)
+- Replace mean pooling with attention-based pooling
+- Extend evaluation to non-English and cross-cultural datasets
+- Incorporate finer-grained temporal mood variation modeling
 
 ## Authors
 - Shahad Almubki  
@@ -58,9 +65,10 @@ The main objective of this study is to investigate:
 
 ## Status
 Academic Critical Review  
-Master of Data Science – Advanced Data Mining
+Course – Artificial Intelligence and Deep Learning 
+Masters Program – Data Science.
 
 ## Disclaimer
-This repository contains a critical review and experimental analysis of an existing
-research paper. All credit for the original model, data, and methodology belongs
-to the original authors.
+This repository contains a critical review of an existing deep learning research
+paper. All credit for the original model, data, and methodology belongs to the
+original authors.
